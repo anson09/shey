@@ -1,0 +1,28 @@
+{
+  "name": "shey",
+  "version": "0.1.0",
+  "description": "shell history manage, support merge | sort | cleanup",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/anson09/shey.git"
+  },
+  "keywords": [
+    "zsh",
+    "shell",
+    "history",
+    "sort",
+    "merge",
+    "cleanup",
+    "manage"
+  ],
+  "author": "finalsong6@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anson09/shey/issues"
+  },
+  "homepage": "https://github.com/anson09/shey#readme"
+}
