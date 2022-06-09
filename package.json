@@ -2,10 +2,12 @@
   "name": "shey",
   "version": "0.1.0",
   "description": "shell history manage, support merge | sort | cleanup",
-  "main": "index.js",
+  "module": "index.js",
   "type": "module",
-  "scripts": {
+  "engines": {
+    "node": ">=18.3.0"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/anson09/shey.git"
@@ -24,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/anson09/shey/issues"
   },
-  "homepage": "https://github.com/anson09/shey#readme"
+  "homepage": "https://github.com/anson09/shey#readme",
+  "dependencies": {
+    "commander": "^9.3.0"
+  }
 }
