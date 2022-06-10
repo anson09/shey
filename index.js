@@ -1,11 +1,9 @@
 #!/usr/bin/env node
 
-import { readFile } from "node:fs/promises";
-import { merge } from "./lib/merge.js";
-import { countFrequency } from "./lib/frequency.js";
+import merge from "./lib/merge.js";
+import frequency from "./lib/frequency.js";
+import pure from "./lib/pure.js";
 
-const rawFile = await readFile("zsh_history.local", { encoding: "utf8" });
-const rawFile2 = await readFile("zsh_history.remote", { encoding: "utf8" });
-
-merge(rawFile, rawFile2);
-// countFrequency(rawFile);
+await merge("zsh_history.local", "zsh_history.remote");
+await pure("zsh_history.shey");
+await frequency("zsh_history.shey");
