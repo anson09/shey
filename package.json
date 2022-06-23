@@ -29,6 +29,11 @@
     "cleanup",
     "manage"
   ],
+  "files": [
+    "index.js",
+    "const.js",
+    "lib"
+  ],
   "author": "finalsong6@gmail.com",
   "license": "MIT",
   "bugs": {
