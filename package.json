@@ -1,12 +1,13 @@
 {
   "name": "shey",
   "version": "0.1.0",
-  "description": "shell history manage, support merge | sort | cleanup",
+  "description": "shell history manage tool, support merge | count | cleanup",
   "module": "index.js",
   "type": "module",
   "engines": {
-    "node": ">=18.3.0"
+    "node": ">=18.4.0"
   },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +19,7 @@
     "zsh",
     "shell",
     "history",
-    "sort",
+    "count",
     "merge",
     "cleanup",
     "manage"
