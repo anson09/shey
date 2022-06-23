@@ -16,6 +16,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/anson09/shey.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "zsh",
     "shell",
