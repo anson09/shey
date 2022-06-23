@@ -9,7 +9,8 @@
   },
   "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,8 @@
   "homepage": "https://github.com/anson09/shey#readme",
   "dependencies": {
     "commander": "^9.3.0"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }

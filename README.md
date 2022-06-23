@@ -13,4 +13,4 @@ Currently supports ZSH history only, welcome PR to add more formats support
 
 ## TODO
 
-- [ ] add release
+- [ ]
