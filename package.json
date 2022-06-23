@@ -1,6 +1,6 @@
 {
   "name": "shey",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "shell history manage tool, support merge | count | cleanup",
   "module": "index.js",
   "type": "module",

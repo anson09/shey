@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/anson09/shey/compare/v0.1.0...v0.1.1) (2022-06-23)
+
+
+### CI FLOW 🌊
+
+* control files in bundle ([57790a9](https://github.com/anson09/shey/commit/57790a952d242ce4293c6f8ef34595dc02244506))
+* set default publish registry ([3025f4c](https://github.com/anson09/shey/commit/3025f4c0863c1a105ad43da530db5afd4b786166))
+
 ## 0.1.0 (2022-06-23)
 
 
